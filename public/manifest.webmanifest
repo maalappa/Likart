@@ -1,0 +1,104 @@
+{
+  "id": "/",
+  "name": "LIKART All-in-One: Food, Mart, Kitchen, Fleet & Admin",
+  "short_name": "LIKART All-in-One",
+  "description": "Unified Android delivery ecosystem: Food, 10-Min Groceries, Kitchen, Fleet, Store & Admin.",
+  "theme_color": "#0c2340",
+  "background_color": "#0c2340",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Food Delivery Customer Store",
+      "short_name": "customer",
+      "description": "Browse verified restaurants, explore dish video reels, track live deliveries.",
+      "url": "/?portal=customer&view=home",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Likart Mart 10-Minute Groceries",
+      "short_name": "quick_commerce",
+      "description": "Ultra-fast doorstep grocery and essentials delivery in 10-12 minutes.",
+      "url": "/?portal=customer&view=quick_commerce",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Partner Console",
+      "short_name": "restaurant",
+      "description": "Live order KDS dispatch, menu manager, inventory, and restaurant payouts.",
+      "url": "/?portal=restaurant",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Rider Delivery Partner Fleet",
+      "short_name": "delivery",
+      "description": "Order accept/pickup/deliver, live GPS route navigation, rider wallet.",
+      "url": "/?portal=delivery",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Likart Mart Dark Store Pod Manager",
+      "short_name": "mart_manager",
+      "description": "Dark store inventory control, fast picker routing, and rider dispatch.",
+      "url": "/?portal=mart_manager",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Super Admin Control Center",
+      "short_name": "admin",
+      "description": "Universal platform command, franchises, live maps, RBAC, and audit logs.",
+      "url": "/?portal=admin",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

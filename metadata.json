@@ -1,0 +1,6 @@
+{
+  "name": "LIKART FOOD - Premium Food Delivery Platform",
+  "description": "Premium multi-portal food delivery ecosystem featuring customer ordering, restaurant vendor management, delivery partner portal, and super admin dashboard.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
